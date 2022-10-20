@@ -234,8 +234,11 @@ body {
 .wrapper {
   max-width: 90%;
   margin: 0 auto;
+<<<<<<< HEAD
 }
 
 html {
   font-family: "Kumar One", cursive, "Kumar One Outline", cursive;
+=======
+>>>>>>> 2b62a4a2be8b55ce86fe20a836579631c731af80
 }
