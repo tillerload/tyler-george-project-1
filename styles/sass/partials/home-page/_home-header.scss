@@ -1,0 +1,36 @@
+@use "../global/variables";
+
+
+header {
+  background-image: url(../assets/header-home.jpg);
+  // background-position: bottom;
+  background-size: cover;
+
+}
+
+header .wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-family: "Kumar One Outline";
+  font-size: 3.4rem;
+  width: 20%;
+  padding: 0 0 0 15%;
+  
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+  
+  
+    li {
+      padding: 0 40px 0 40px;
+      color: variables.$font-primary;
+    }
+    
+
+}

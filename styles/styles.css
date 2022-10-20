@@ -232,13 +232,68 @@ body {
 }
 
 .wrapper {
-  max-width: 90%;
+  max-width: 80%;
   margin: 0 auto;
-<<<<<<< HEAD
 }
 
 html {
   font-family: "Kumar One", cursive, "Kumar One Outline", cursive;
-=======
->>>>>>> 2b62a4a2be8b55ce86fe20a836579631c731af80
+  font-weight: lighter;
+}
+
+header {
+  background-image: url(../assets/header-home.jpg);
+  background-size: cover;
+}
+
+header .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+h1 {
+  font-family: "Kumar One Outline";
+  font-size: 3.4rem;
+  width: 20%;
+  padding: 0 0 0 15%;
+}
+
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+header nav ul li {
+  padding: 0 40px 0 40px;
+  color: #151514;
+}
+
+.discover-section {
+  background: #F5F5F5;
+}
+
+.discover-section .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.discover-text {
+  padding-right: 300px;
+}
+.discover-text p {
+  font-size: 1rem;
+  line-height: 30px;
+  font-family: "lato, Regular";
 }
