@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumar+One&family=Kumar+One+Outline&display=swap");
 html {
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
@@ -224,4 +225,17 @@ html {
           clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+body {
+  font-size: 125%;
+}
+
+.wrapper {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+html {
+  font-family: "Kumar One", cursive, "Kumar One Outline", cursive;
 }
