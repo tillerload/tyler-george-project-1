@@ -3,8 +3,9 @@
 
 header {
   background-image: url(../assets/header-home.jpg);
-  // background-position: bottom;
   background-size: cover;
+  padding-bottom: 700px;
+  // height: 600px;
 
 }
 
@@ -30,7 +31,21 @@ header nav ul {
     li {
       padding: 0 40px 0 40px;
       color: variables.$font-primary;
+      
+        a {
+          text-decoration: none;
+          color: #151514;
+            &:hover,
+            &:focus  {
+              border-bottom: 3px solid #F8FB05;
+            }
+        }
     }
-    
+  
+}
 
+header .header-img {
+  position: absolute;
+  left: -5px;
+  bottom: -20px;
 }

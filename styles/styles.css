@@ -241,9 +241,15 @@ html {
   font-weight: lighter;
 }
 
+h1,
+h2 {
+  text-transform: uppercase;
+}
+
 header {
   background-image: url(../assets/header-home.jpg);
   background-size: cover;
+  padding-bottom: 700px;
 }
 
 header .wrapper {
@@ -276,6 +282,19 @@ header nav ul li {
   padding: 0 40px 0 40px;
   color: #151514;
 }
+header nav ul li a {
+  text-decoration: none;
+  color: #151514;
+}
+header nav ul li a:hover, header nav ul li a:focus {
+  border-bottom: 3px solid #F8FB05;
+}
+
+header .header-img {
+  position: absolute;
+  left: -5px;
+  bottom: -20px;
+}
 
 .discover-section {
   background: #F5F5F5;
@@ -296,4 +315,23 @@ header nav ul li {
   font-size: 1rem;
   line-height: 30px;
   font-family: "lato, Regular";
+}
+
+.gallery-section {
+  background: #EDFDDF;
+  padding: 75px 0 75px 0;
+}
+.gallery-section .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.gallery-section .gallery-img {
+  padding: 0 20px 0 20px;
+}
+.gallery-section .gallery-img img {
+  width: 485px;
 }
