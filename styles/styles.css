@@ -314,7 +314,23 @@ header .header-img {
 .discover-text p {
   font-size: 1rem;
   line-height: 30px;
-  font-family: "lato, Regular";
+  font-family: "Lato, Regular";
+  letter-spacing: 2px;
+}
+.discover-text button {
+  background: #065635;
+  color: #F5F5F5;
+  padding: 10px 15px 10px 15px;
+  text-transform: uppercase;
+  font-family: "Kumar One, cursive";
+  font-weight: bold;
+  border: none;
+  text-align: center;
+}
+
+.discover-img img {
+  -webkit-box-shadow: -15px 15px #F8FB05;
+          box-shadow: -15px 15px #F8FB05;
 }
 
 .gallery-section {
@@ -333,5 +349,5 @@ header .header-img {
   padding: 0 20px 0 20px;
 }
 .gallery-section .gallery-img img {
-  width: 485px;
+  width: 300px;
 }

@@ -16,11 +16,24 @@ background: variables.$primary-color;
     p {
       font-size: 1rem;
       line-height: 30px;
-      font-family: "lato, Regular";
+      font-family: "Lato, Regular";
+      letter-spacing: 2px;
+      
     
+    }
+    button {
+      background: variables.$button-color;
+      color: variables.$primary-color;
+      padding: 10px 15px 10px 15px;
+      text-transform: uppercase;
+      font-family: variables.$secondary-header-font;
+      font-weight: bold;
+      border: none;
+      text-align: center;
     }
 }
 
 .discover-img img {
-  // width: 300px;
+  box-shadow: -15px 15px variables.$box-shading;
 }
+
