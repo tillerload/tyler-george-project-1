@@ -1,0 +1,44 @@
+@use "../global/variables";
+
+.contact-header {
+    background-image: url(../assets/contact-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 300px;
+    background-position: center;
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    .header-top {
+        display: flex;
+        h2 {
+            font-size: 1.65rem;
+            width: 100px;
+            padding-right: 600px;
+        }
+    }
+    h1 {
+        width: 100%;
+        padding: 100px 100px 0 0;
+    }
+}
+
+.contact-header nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    li {
+        padding: 0 40px 0 40px;
+        color: variables.$font-primary;
+        
+          a {
+            text-decoration: none;
+            color: #151514;
+              &:hover,
+              &:focus  {
+                border-bottom: 3px solid #F8FB05;
+              }
+          }
+      }
+}
+

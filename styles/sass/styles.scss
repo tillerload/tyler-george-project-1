@@ -6,5 +6,12 @@
 @use "./partials/home-page/home-discover";
 @use "./partials/home-page/home-gallery";
 @use "./partials/home-page/home-silly";
-
-
+@use "./partials/home-page/home-about";
+@use "./partials/home-page/home-empty-background";
+@use "./partials/home-page/home-search";
+@use "./partials/global/footer";
+@use "./partials/contact-page/contact-header";
+@use "./partials/contact-page/contact-contact";
+@use "./partials/blog-page/blog-header";
+@use "./partials/blog-page/blog-blog";
+@use "./partials/blog-page/blog-comment";

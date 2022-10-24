@@ -1,0 +1,50 @@
+@use "../global/variables";
+
+.about-section {
+    background: variables.$secondary-color;
+
+    .wrapper {
+    display: flex;
+    padding: 75px 0 50px 0;
+    flex-wrap: wrap;
+    }
+    button {
+        background: variables.$button-color;
+        color: variables.$primary-color;
+        padding: 10px 15px 10px 15px;
+        text-transform: uppercase;
+        font-family: variables.$secondary-header-font;
+        font-weight: bold;
+        border: none;
+        text-align: center;
+      }
+}
+
+.about-img {
+    width: 50%;
+    img {
+        width: 500px;
+        box-shadow: 15px 15px variables.$box-shading;
+    }
+
+}
+
+.about-section .img-1 img {
+    position: absolute;
+    left: 0;
+    top: 2350px;
+    
+}
+
+.about-section .img-2 img {
+    position: absolute;
+    right: 0;
+    top: 2825px;
+    box-shadow: -15px 15px variables.$box-shading;
+    
+}
+
+.about-text {
+    width: 50%;
+}
+

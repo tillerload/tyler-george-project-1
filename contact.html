@@ -6,12 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="./styles/styles.css">
-  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
   
   <!-- Header Section -->
-  <header id="contact">
+  <header id="contact" class="contact-header">
     <div class="wrapper">
       <div class="header-top">
         <h2>Sanctuary Helpers</h2>
@@ -32,7 +32,7 @@
           </ul>
         </nav>
       </div>
-      <h1>GET IN TOUCH</h1>
+      <h1 class="contact-h1">GET IN TOUCH</h1>
     </div> <!-- wrapper end -->
   </header> <!-- end of header -->
   <main>
@@ -55,41 +55,38 @@
           </div> <!-- end of top of contact container -->
           <div class="message-container">
             <form action="#" method="#" class="message-form"></form>
-            <label for="message-box">Message</label>
+            <label for="message-box"></label>
             <input type="text" name="message-box" id="message-box">
           </div> <!-- end of message container -->
-          <button>Submit</button>
+          <div class="contact-button">
+            <button>Submit</button>
+          </div>
         </div> <!-- end of contact container -->
 
         <div class="contact-info-container">
           <ul class="social-links">
             <li>
-              <a href="">
-                <img src="" alt="Facebook">
-              </a>
+              <a href="#" class="fa fa-facebook"></a>
             </li>
             <li>
-              <a href="">
-                <img src="" alt="Instagram">
-              </a>
+              <a href="#" class="fa fa-instagram"></a>
             </li>
             <li>
-              <a href="">
-                <img src="" alt="Twitter">
-              </a>
+              <a href="#" class="fa fa-twitter"></a>
             </li>
             <li>
-              <a href="">
-                <img src="" alt="Whatsapp">
-              </a>
+              <a href="#" class="fa fa-whatsapp"></a>
             </li>
           </ul>
-          <p class="contact-email-p">info@email.com</p>
-          <p>123-456-7890</p>
-          <p>123 Queen Street West</p>
-          <p>Unit 10</p>
-          <p>Toronto, Ontario</p>
-          <p>M5V2D5</p>
+          <p>info@email.com</p>
+          <ul>
+            <li>123-456-7890</li>
+            <li>123 Queen Street West</li>
+            <li>Unit 10</li>
+            <li>Toronto, Ontario</li>
+            <li>M5V2D5</li>
+          </ul>
+         
         </div><!-- end of contact info -->
       </div> <!-- end of wrapper -->
     </section> <!-- end of contact section -->

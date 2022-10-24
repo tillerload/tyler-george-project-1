@@ -1,0 +1,48 @@
+@use "../global/variables";
+
+.comment-section {
+    background: variables.$secondary-color;
+    padding-top: 50px;
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        h3 {
+            margin: 0;
+        }
+    }
+    .comment {
+        display: flex;
+        img {
+            padding: 25px 20px 20px 0px;
+        }
+        .comment-text {
+            padding-left: 10px;
+        }
+
+    }
+    .blog-name-form {
+        display: flex;
+        flex-direction: column;
+        input {
+            border: none;
+            border-bottom: 2px solid variables.$button-color;
+            width: 400px;
+
+        }
+    }
+    .blog-email-form {
+        display: flex;
+        flex-direction: column;
+        input {
+            border: none;
+            border-bottom: 2px solid variables.$button-color;
+            width: 400px;
+
+        }
+    }
+    
+}
+.blog-forms-container {
+    display: flex;
+}
+

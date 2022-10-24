@@ -1,0 +1,92 @@
+@use "../global/variables";
+
+.contact-section {
+    background: variables.$secondary-color;
+    height: 600px;
+    .wrapper {
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+.contact-container {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 80px;
+    bottom: -250px;
+    box-shadow: 15px 15px variables.$box-shading;
+    .contact-container-top {
+        display: flex;
+        padding: 60px;
+    }
+    .contact-username-form {
+        display: flex;
+        flex-direction: column;
+        padding-right: 20px;
+        input {
+            border: none;
+            border-bottom: 2px solid variables.$button-color;
+            width: 400px;
+        }
+    }
+    .contact-email-form {
+        display: flex;
+        flex-direction: column;
+        input {
+            border: none;
+            border-bottom: 2px solid variables.$button-color;
+            width: 400px;
+
+        }
+    }
+    .message-container {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 50px;
+        input {
+            border: none;
+            border: 2px solid variables.$button-color;
+            width: 88%;
+            height: 300px;
+
+
+        }
+    }
+    .contact-button {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 50px;
+        button {
+            width: 89%;
+        }
+    }
+        
+}
+
+.contact-info-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    
+    .social-links {
+        list-style: none;
+        display: flex;
+        text-align: left;
+
+    }
+    ul {
+        list-style: none;
+        font-size: 1rem;
+        letter-spacing: 2px;
+        line-height: 32px;
+        font-family: "Lato";
+        font-weight: bold;
+
+    }
+    p {
+        padding-left: 40px;
+    }
+
+}

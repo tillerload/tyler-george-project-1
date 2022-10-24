@@ -1,0 +1,20 @@
+@use "../global/variables";
+
+.search-section .wrapper {
+    padding: 85px 0 100px 0;
+
+}
+
+.search-container {
+    text-align: center;
+    button {
+        background: variables.$button-color;
+        color: variables.$primary-color;
+        padding: 10px 15px 10px 15px;
+        text-transform: uppercase;
+        font-family: variables.$secondary-header-font;
+        font-weight: bold;
+        border: none;
+        text-align: center;
+      }
+}
