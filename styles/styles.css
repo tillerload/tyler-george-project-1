@@ -816,7 +816,7 @@ footer p {
   width: 400px;
 }
 
-.blog-forms-container {
+.name-email-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
