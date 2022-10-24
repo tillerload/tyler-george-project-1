@@ -820,4 +820,30 @@ footer p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 20px 0 20px 0;
+}
+.name-email-container input {
+  background: #EDFDDF;
+}
+
+.comment-box-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 30px;
+}
+
+.blog-comment-form {
+  border: 2px solid #065635;
+  height: 300px;
+  width: 1200px;
+}
+.blog-comment-form input {
+  background: #EDFDDF;
+  border: none;
 }

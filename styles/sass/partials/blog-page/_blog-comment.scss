@@ -44,5 +44,26 @@
 }
 .name-email-container {
     display: flex;
+    justify-content: space-around;
+    padding: 20px 0 20px 0;
+    input {
+        background: variables.$secondary-color;
+    }
+}
+.comment-box-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.blog-comment-form {
+    border: 2px solid variables.$button-color;
+    height: 300px;
+    width: 1200px;
+    input {
+        background: variables.$secondary-color;
+        border: none;
+    }
+    
+
 }
 
