@@ -1,0 +1,16 @@
+@use "../global/variables";
+
+.gallery-section {
+  background: variables.$secondary-color;
+  padding: 75px 0 75px 0;
+    .wrapper {
+      display: flex;
+      justify-content: center;
+    }  
+    .gallery-img {
+      padding: 0 20px 0 20px;
+        img {
+          width: 300px;
+        }
+    }
+}

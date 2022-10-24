@@ -1,0 +1,39 @@
+@use "../global/variables";
+
+.discover-section {
+background: variables.$primary-color;
+
+}
+
+.discover-section .wrapper {
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.discover-text {
+  padding-right: 300px;
+    p {
+      font-size: 1rem;
+      line-height: 30px;
+      font-family: "Lato, Regular";
+      letter-spacing: 2px;
+      
+    
+    }
+    button {
+      background: variables.$button-color;
+      color: variables.$primary-color;
+      padding: 10px 15px 10px 15px;
+      text-transform: uppercase;
+      font-family: variables.$secondary-header-font;
+      font-weight: bold;
+      border: none;
+      text-align: center;
+    }
+}
+
+.discover-img img {
+  box-shadow: -15px 15px variables.$box-shading;
+}
+
