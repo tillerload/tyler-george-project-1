@@ -1,0 +1,36 @@
+@use "../global/variables";
+
+@media (max-width: 376px) {
+
+  .contact-header {
+    background-size: cover;
+    background-position: bottom ;
+    height: 667px;
+    .header-top {
+      flex-direction: column-reverse;
+    }
+    .wrapper {
+      h2 {
+        font-size: 30px;
+      }
+     
+      ul li {
+        font-size: 15px;
+      }
+    }
+    h1 {
+      font-size: 70px;
+      padding-top: 0;
+    }
+  }
+  .contact-section .wrapper {
+    flex-direction: column;
+  }
+  .contact-container {
+    position: static;
+  }
+
+  
+
+ 
+} // end of media

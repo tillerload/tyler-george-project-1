@@ -1107,3 +1107,35 @@ body {
     width: 200px;
   }
 }
+@media (max-width: 376px) {
+  .contact-header {
+    background-size: cover;
+    background-position: bottom;
+    height: 667px;
+  }
+  .contact-header .header-top {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .contact-header .wrapper h2 {
+    font-size: 30px;
+  }
+  .contact-header .wrapper ul li {
+    font-size: 15px;
+  }
+  .contact-header h1 {
+    font-size: 70px;
+    padding-top: 0;
+  }
+  .contact-section .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contact-container {
+    position: static;
+  }
+}
