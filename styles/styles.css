@@ -471,6 +471,8 @@ header .header-img {
 .background-section {
   background-image: url(../assets/banner-image.jpg);
   height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .search-section .wrapper {
@@ -1137,5 +1139,66 @@ body {
   }
   .contact-container {
     position: static;
+  }
+}
+@media (max-width: 376px) {
+  .blog-header {
+    height: 667px;
+  }
+  .blog-header .blog-header-top {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .blog-header .blog-header-top h2 {
+    font-size: 25px;
+  }
+  .blog-header h1 {
+    padding-top: 260px;
+    font-size: 90px;
+  }
+  .blog-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .blog-section .blog-left {
+    padding-top: 0;
+    width: 100%;
+    border: none;
+  }
+  .blog-section .blog-left .blog-left-img {
+    display: none;
+  }
+  .blog-section .blog-right {
+    display: none;
+  }
+  .comment-section h3 {
+    background: #065635;
+    color: #F5F5F5;
+    padding: 10px 15px 10px 15px;
+    text-transform: uppercase;
+    font-family: "Kumar One, cursive";
+    font-weight: bold;
+    border: none;
+    text-align: center;
+  }
+  .comment-section .comments-container {
+    display: none;
+  }
+  .comment-section .name-email-container .blog-name-form input {
+    border: none;
+    border-bottom: 2px solid #065635;
+    width: 300px;
+  }
+  .comment-section .name-email-container .blog-email-form input {
+    border: none;
+    border-bottom: 2px solid #065635;
+    width: 300px;
   }
 }
