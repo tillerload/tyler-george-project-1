@@ -2,10 +2,12 @@
 
 
 .homepage-header {
+  background: variables.$primary-color;
   background-image: url(../assets/header-home.jpg);
   background-size: contain;
   padding-bottom: 750px;
   background-repeat: no-repeat;
+  
   
 
 }

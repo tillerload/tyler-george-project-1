@@ -277,6 +277,7 @@ button {
 }
 
 .homepage-header {
+  background: #F5F5F5;
   background-image: url(../assets/header-home.jpg);
   background-size: contain;
   padding-bottom: 750px;
@@ -381,6 +382,10 @@ header .header-img {
 }
 .gallery-section .gallery-img img {
   width: 300px;
+}
+
+.silly-section {
+  background: #F5F5F5;
 }
 
 .silly-section .wrapper {
@@ -1025,5 +1030,80 @@ body {
   }
   .name-email-container .blog-name-form input {
     width: 645px;
+  }
+}
+@media (max-width: 376px) {
+  .homepage-header {
+    height: 667px;
+    background-size: cover;
+    background-position: right;
+  }
+  .homepage-header .wrapper h1 {
+    font-size: 40px;
+  }
+  .homepage-header .wrapper ul {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .homepage-header .wrapper ul li {
+    font-size: 16px;
+    padding: 0 15px 0 15px;
+  }
+  .homepage-header .header-img {
+    display: none;
+  }
+  .discover-img {
+    right: 0;
+    top: 700px;
+  }
+  .discover-img img {
+    width: 200px;
+  }
+  .discover-text {
+    width: 100%;
+    padding-bottom: 0;
+    padding-top: 225px;
+  }
+  .discover-text h2 {
+    font-size: 18px;
+  }
+  .discover-text button {
+    padding: 10px 50px 10px 50px;
+    width: 300px;
+  }
+  .gallery-section .gallery-img-1 {
+    display: none;
+  }
+  .gallery-section .gallery-img-2 {
+    display: none;
+  }
+  .silly-section .wrapper {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    padding: 0;
+    padding: 10px 0 10px 15px;
+  }
+  .silly-section .silly-column .silly-text {
+    display: none;
+  }
+  .about-section .wrapper {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 200px 0 200px 0;
+  }
+  .about-section .wrapper .img-1 img {
+    width: 250px;
+    top: 1580px;
+  }
+  .about-section .wrapper .img-2 img {
+    width: 250px;
+    top: 2120px;
+  }
+  .about-section .wrapper .about-text button {
+    width: 200px;
   }
 }
