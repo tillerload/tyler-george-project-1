@@ -2,7 +2,7 @@
 
 .contact-section {
     background: variables.$secondary-color;
-    height: 600px;
+    height: 700px;
     .wrapper {
         display: flex;
         justify-content: flex-end;
@@ -15,8 +15,9 @@
     flex-direction: column;
     position: absolute;
     left: 80px;
-    bottom: -250px;
+    bottom: -150px;
     box-shadow: 15px 15px variables.$box-shading;
+    
     .contact-container-top {
         display: flex;
         padding: 60px;

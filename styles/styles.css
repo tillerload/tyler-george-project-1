@@ -547,7 +547,7 @@ footer p {
 
 .contact-section {
   background: #EDFDDF;
-  height: 600px;
+  height: 700px;
 }
 .contact-section .wrapper {
   display: -webkit-box;
@@ -569,7 +569,7 @@ footer p {
           flex-direction: column;
   position: absolute;
   left: 80px;
-  bottom: -250px;
+  bottom: -150px;
   -webkit-box-shadow: 15px 15px #F8FB05;
           box-shadow: 15px 15px #F8FB05;
 }
@@ -909,5 +909,64 @@ footer p {
   }
   .search-section .search-container p {
     display: none;
+  }
+}
+@media (max-width: 811px) {
+  .contact-header .header-top h2 {
+    padding-right: 300px;
+    font-size: 20px;
+  }
+  .contact-header .header-top ul li {
+    font-size: 15px;
+    padding: 0 15px 0 15px;
+  }
+  .contact-section {
+    height: 400px;
+  }
+  .contact-section .wrapper {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .contact-header h1 {
+    font-size: 45px;
+  }
+  .contact-container {
+    width: 400px;
+    top: 400px;
+    left: 50px;
+    height: 500px;
+    padding-bottom: 0;
+  }
+  .contact-container .contact-container-top {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contact-container .contact-container-top .contact-username-form {
+    padding: 0 0 10px 0;
+  }
+  .contact-container .contact-container-top .contact-username-form input {
+    width: 280px;
+  }
+  .contact-container .contact-container-top .contact-username-form label {
+    text-align: center;
+  }
+  .contact-container .contact-container-top .contact-email-form {
+    padding: 10px 0 0 0;
+  }
+  .contact-container .contact-container-top .contact-email-form input {
+    width: 280px;
+  }
+  .contact-container .contact-container-top .contact-email-form label {
+    text-align: center;
+  }
+  .contact-container .message-container input {
+    height: 100px;
+    width: 300px;
+  }
+  .contact-info-container ul {
+    margin: 0;
   }
 }
