@@ -2,6 +2,9 @@
 
 @media (max-width: 376px) {
 
+  .contact-section {
+    height: auto;
+  }
   .contact-header {
     background-size: cover;
     background-position: bottom ;
@@ -25,12 +28,34 @@
   }
   .contact-section .wrapper {
     flex-direction: column;
+    max-width: 100%;
+    padding: 0;
   }
   .contact-container {
     position: static;
+    border-bottom: 15px solid variables.$box-shading;
+    box-shadow: none;
+    width: auto;
+    height: 720px;
+    .message-container {
+      input {
+        height: 300px;
+      }
+    }
   }
 
-  
+  .contact-info-container {
+    .social-links {
+      display: flex;
+      justify-content: center;
+    }
+    ul,
+    p {
+      padding-left: 0;
+    }
+    text-align: center;
+    padding-bottom: 20px;
+  }
 
  
 } // end of media

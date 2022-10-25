@@ -17,6 +17,8 @@
     left: 80px;
     bottom: -150px;
     box-shadow: 15px 15px variables.$box-shading;
+    font-family: "Lato";
+    font-size: 15px;
     
     .contact-container-top {
         display: flex;
@@ -30,6 +32,9 @@
             border: none;
             border-bottom: 2px solid variables.$button-color;
             width: 400px;
+        }
+        label {
+            text-align: left;
         }
     }
     .contact-email-form {
@@ -84,6 +89,9 @@
         line-height: 32px;
         font-family: "Lato";
         font-weight: bold;
+        li a {
+            color: variables.$button-color;
+        }
 
     }
     p {

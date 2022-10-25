@@ -14,9 +14,7 @@
     }
   }
 
-  .contact-section {
-    height: 400px;
-  }
+
 
   .contact-section .wrapper {
     justify-content: flex-end;
@@ -40,7 +38,7 @@
           width: 280px;
         }
         label {
-          text-align: center;
+          text-align: left;
         }
       }
       .contact-email-form {
@@ -49,7 +47,7 @@
           width: 280px;
         }
         label {
-          text-align: center;
+          text-align: left;
         }
       }
     }
