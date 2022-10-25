@@ -3,6 +3,8 @@
 .comment-section {
     background: variables.$secondary-color;
     padding-top: 50px;
+    width: 68.5%;
+    padding-bottom: 30px;
     .wrapper {
         display: flex;
         flex-direction: column;
@@ -41,6 +43,7 @@
         }
     }
     
+    
 }
 .name-email-container {
     display: flex;
@@ -58,12 +61,11 @@
 .blog-comment-form {
     border: 2px solid variables.$button-color;
     height: 300px;
-    width: 1200px;
+    width: 980px;
     input {
         background: variables.$secondary-color;
         border: none;
     }
     
-
 }
 

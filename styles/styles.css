@@ -665,6 +665,10 @@ footer p {
   padding-left: 40px;
 }
 
+body {
+  background: #EDFDDF;
+}
+
 .blog-header {
   background-image: url(../assets/blog-image.jpg);
   background-repeat: no-repeat;
@@ -674,22 +678,22 @@ footer p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  list-style: none;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
 }
-.blog-header .header-top {
+.blog-header .blog-header-top {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-.blog-header .header-top h2 {
+.blog-header .blog-header-top h2 {
   font-size: 1.65rem;
   width: 100px;
-  padding-right: 600px;
+  padding-right: 800px;
+}
+.blog-header .blog-header-top ul {
+  font-size: 30px;
 }
 .blog-header h1 {
+  font-size: 70px;
   width: 100%;
   padding: 100px 100px 0 0;
 }
@@ -727,18 +731,19 @@ footer p {
 
 .blog-left {
   background-color: white;
-  width: 66%;
+  width: 68.5%;
   -webkit-box-shadow: 8px 0 #F8FB05;
           box-shadow: 8px 0 #F8FB05;
-  padding-top: 475px;
+  padding-top: 875px;
   border-bottom: 8px solid #F8FB05;
 }
 .blog-left .blog-left-img img {
+  width: 1400px;
   -webkit-box-shadow: 15px 15px #F8FB05;
           box-shadow: 15px 15px #F8FB05;
   position: absolute;
   left: 0;
-  top: 450px;
+  top: 550px;
 }
 .blog-left .blog-left-text {
   padding-left: 200px;
@@ -763,6 +768,8 @@ footer p {
 .comment-section {
   background: #EDFDDF;
   padding-top: 50px;
+  width: 68.5%;
+  padding-bottom: 30px;
 }
 .comment-section .wrapper {
   display: -webkit-box;
@@ -841,7 +848,7 @@ footer p {
 .blog-comment-form {
   border: 2px solid #065635;
   height: 300px;
-  width: 1200px;
+  width: 980px;
 }
 .blog-comment-form input {
   background: #EDFDDF;

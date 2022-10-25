@@ -1,5 +1,9 @@
 @use "../global/variables";
 
+body {
+    background: variables.$secondary-color;
+}
+
 .blog-header {
     background-image: url(../assets/blog-image.jpg);
     background-repeat: no-repeat;
@@ -7,17 +11,20 @@
     padding-bottom: 300px;
     background-position: center;
     display: flex;
-    list-style: none;
-    justify-content: flex-end;
-    .header-top {
+    .blog-header-top {
         display: flex;
+        
         h2 {
             font-size: 1.65rem;
             width: 100px;
-            padding-right: 600px;
+            padding-right: 800px;
+        }
+        ul {
+            font-size: 30px;
         }
     }
     h1 {
+        font-size: 70px;
         width: 100%;
         padding: 100px 100px 0 0;
     }

@@ -8,16 +8,17 @@
 
 .blog-left {
     background-color: white;
-    width: 66%;
+    width: 68.5%;
     box-shadow: 8px 0 variables.$box-shading;
-    padding-top: 475px;
+    padding-top: 875px;
     border-bottom: 8px solid variables.$box-shading;
     
     .blog-left-img img {
+        width: 1400px;
         box-shadow: 15px 15px variables.$box-shading;
         position: absolute;
         left: 0;
-        top: 450px;
+        top: 550px;
     }
     .blog-left-text {
         padding-left: 200px;
@@ -33,6 +34,7 @@
     width: 300px;
     border-left: 15px solid variables.$box-shading;
     margin-top: 150px;
+    
     img {
         width: 300px;
     }
