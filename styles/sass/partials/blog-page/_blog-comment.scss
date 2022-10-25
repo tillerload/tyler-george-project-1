@@ -1,0 +1,71 @@
+@use "../global/variables";
+
+.comment-section {
+    background: variables.$secondary-color;
+    padding-top: 50px;
+    width: 68.5%;
+    padding-bottom: 30px;
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        h3 {
+            margin: 0;
+        }
+    }
+    .comment {
+        display: flex;
+        img {
+            padding: 25px 20px 20px 0px;
+        }
+        .comment-text {
+            padding-left: 10px;
+        }
+
+    }
+    .blog-name-form {
+        display: flex;
+        flex-direction: column;
+        input {
+            border: none;
+            border-bottom: 2px solid variables.$button-color;
+            width: 400px;
+
+        }
+    }
+    .blog-email-form {
+        display: flex;
+        flex-direction: column;
+        input {
+            border: none;
+            border-bottom: 2px solid variables.$button-color;
+            width: 400px;
+
+        }
+    }
+    
+    
+}
+.name-email-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0 20px 0;
+    input {
+        background: variables.$secondary-color;
+    }
+}
+.comment-box-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.blog-comment-form {
+    border: 2px solid variables.$button-color;
+    height: 300px;
+    width: 980px;
+    input {
+        background: variables.$secondary-color;
+        border: none;
+    }
+    
+}
+

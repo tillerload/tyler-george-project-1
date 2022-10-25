@@ -1,0 +1,45 @@
+@use "../global/variables";
+
+.blog-section {
+    background: variables.$secondary-color;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-left {
+    background-color: white;
+    width: 68.5%;
+    box-shadow: 8px 0 variables.$box-shading;
+    padding-top: 875px;
+    border-bottom: 8px solid variables.$box-shading;
+    
+    .blog-left-img img {
+        width: 1400px;
+        box-shadow: 15px 15px variables.$box-shading;
+        position: absolute;
+        left: 0;
+        top: 550px;
+    }
+    .blog-left-text {
+        padding-left: 200px;
+        padding-bottom: 20px;
+        width: 90%;
+        
+    }
+
+}
+.blog-right {
+    background: variables.$box-shading;
+    height: 850px;
+    width: 300px;
+    border-left: 15px solid variables.$box-shading;
+    margin-top: 150px;
+    
+    img {
+        width: 300px;
+    }
+    ul {
+        font-family: "Lato";
+    }
+    
+}

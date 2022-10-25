@@ -1,6 +1,39 @@
 @use "../global/variables";
 
+.silly-section {
+    background: variables.$primary-color;
+}
+
 .silly-section .wrapper {
-  display: flex;
-  flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 0 75px 0;
+}
+
+.silly-column {
+    display: flex;
+    width: 50%;
+    
+    .silly-icon {
+        
+        
+        img {
+            width: 50px;
+            background: variables.$box-shading;
+            border-radius: 100%;
+            text-align: center;
+        }
+    }
+    .silly-text {
+        padding-left: 20px;
+
+        p {
+            font-size: 1rem;
+            letter-spacing: 2px;
+            line-height: 32px;
+            font-family: "Lato";
+        }
+    }
+
+    
 }

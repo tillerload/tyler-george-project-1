@@ -1,3 +1,4 @@
+@use "./typography";
 // Colors
 
 $primary-color: #F5F5F5;
@@ -8,3 +9,8 @@ $button-color: #065635;
 
 
 // Fonts
+$main-header-font: "Kumar One Outline, cursive";
+$secondary-header-font: "Kumar One, cursive";
+$h1-size: 3.4rem;
+$h2-size: 1.65rem;
+

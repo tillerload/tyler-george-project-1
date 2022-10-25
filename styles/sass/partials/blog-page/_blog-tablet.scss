@@ -1,0 +1,64 @@
+@use "../global/variables";
+
+@media (max-width: 811px) {
+
+  .blog-header .blog-header-top {
+    justify-content: space-evenly;
+    h2 {
+      padding-top: 10px;
+      padding-right: 300px;
+      font-size: 20px;
+  }
+  ul li {
+    font-size: 18px;
+    padding: 0 10px 0 10px;
+
+  }
+}
+
+.blog-left .blog-left-img {
+  img {
+    width: 600px;
+  }
+}
+
+.blog-left {
+  padding-top: 300px;
+  .blog-left-text {
+    padding-left: 25px;
+  }
+}
+
+.blog-right {
+  width: 250px;
+  position: absolute;
+  right: 0;
+  top: 1000px;
+  height: 1000px;
+}
+
+.comment-section {
+  width: 100%;
+}
+
+.name-email-container {
+  flex-direction: column;
+  .blog-email-form {
+    label {
+      padding-top: 20px;
+    }
+    input {
+      width: 645px;
+    }
+  }
+  .blog-name-form {
+    
+    input {
+      width: 645px;
+    }
+  }
+}
+
+
+
+} // end of media

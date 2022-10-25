@@ -1,0 +1,70 @@
+@use "../global/variables";
+
+@media (max-width: 376px) {
+
+.blog-header {
+  height: 667px;
+  .blog-header-top {
+    flex-direction: column-reverse;
+    h2 {
+      font-size: 25px;
+    }
+  }
+  h1 {
+    padding-top: 260px;
+    font-size: 90px;
+  }
+  
+}
+
+.blog-section {
+  display: flex;
+  flex-direction: column-reverse;
+  
+  .blog-left  {
+    padding-top: 0;
+    width: 100%;
+    border: none;
+    .blog-left-img {
+      display: none;
+    }
+  }
+  .blog-right {
+    display: none;
+  }
+}
+
+.comment-section {
+  h3 {
+    background: variables.$button-color;
+    color: variables.$primary-color;
+    padding: 10px 15px 10px 15px;
+    text-transform: uppercase;
+    font-family: variables.$secondary-header-font;
+    font-weight: bold;
+    border: none;
+    text-align: center;
+  }
+  .comments-container {
+    display: none;
+  }
+  
+  .name-email-container {
+    .blog-name-form {
+      input {
+        border: none;
+        border-bottom: 2px solid variables.$button-color;
+        width: 300px;
+      }
+    }
+    .blog-email-form {
+      input {
+        border: none;
+        border-bottom: 2px solid variables.$button-color;
+        width: 300px;
+      }
+    }
+  }
+}
+
+} // end of media

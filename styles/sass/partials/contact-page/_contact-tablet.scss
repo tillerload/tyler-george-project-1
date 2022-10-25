@@ -1,0 +1,69 @@
+@use "../global/variables";
+
+@media (max-width: 811px) {
+
+  .contact-header .header-top {
+    
+    h2 {
+      padding-right: 300px;
+      font-size: 20px;
+    }
+    ul li {
+      font-size: 15px;
+      padding: 0 15px 0 15px;
+    }
+  }
+
+
+
+  .contact-section .wrapper {
+    justify-content: flex-end;
+  }
+  .contact-header h1 {
+    font-size: 45px;
+  }
+
+  
+  .contact-container  {
+    width: 400px;
+    top: 400px;
+    left: 50px;
+    height: 500px;
+    padding-bottom: 0;
+    .contact-container-top {
+      flex-direction: column;
+      .contact-username-form {
+        padding: 0 0 10px 0;
+        input {
+          width: 280px;
+        }
+        label {
+          text-align: left;
+        }
+      }
+      .contact-email-form {
+        padding: 10px 0 0 0;
+        input {
+          width: 280px;
+        }
+        label {
+          text-align: left;
+        }
+      }
+    }
+    .message-container {
+      input {
+        height: 100px;
+        width: 300px;
+      }
+    }
+  }
+  
+  .contact-info-container ul {
+    margin: 0;
+  }
+
+
+
+
+} // end of media quie

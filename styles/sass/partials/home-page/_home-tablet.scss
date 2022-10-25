@@ -1,0 +1,86 @@
+@use "../global/variables";
+
+@media (max-width: 811px) {
+
+  .homepage-header {
+    padding-bottom: 300px;
+  }
+
+  .homepage-header nav ul {
+    font-size: small;
+    
+  }
+  .homepage-header h1 {
+    font-size: 30px;
+    padding: 20px 40px 0 0;
+  }
+
+  .homepage-header .header-img img {
+    width: 400px;
+  }
+
+  .homepage-header .header-img {
+    top: 200px;
+  }
+
+  .discover-img {
+    position: absolute;
+    right: 80px;
+    img {
+      width: 180px;
+    }
+  }
+
+  .discover-text {
+    padding-bottom: 50px;
+    p {
+      display: none;
+    }
+  }
+
+  .gallery-section .gallery-img img {
+    width: 200px;
+  }
+
+  .silly-text p {
+    display: none;
+  }
+
+  .silly-column {
+    .silly-text {
+      font-size: 15px;
+    }
+  }
+
+  .about-section {
+    padding-bottom: 20px;
+    .img-1 img {
+      width: 350px;
+      top: 1380px;
+    }
+    .img-2 img {
+      width: 350px;
+      top: 1700px;
+    }
+    .about-text {
+      p {
+        display: none;
+      }
+    }
+    .about-text-1 {
+      padding-left: 100px;
+    }
+  }
+
+  .background-section {
+    background-size: auto;
+    
+  }
+
+  .search-section .search-container {
+    p {
+      display: none;
+    }
+  }
+
+} // end of media queries
